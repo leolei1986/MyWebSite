@@ -11,7 +11,11 @@ PATH = 'content'
 TIMEZONE = 'Asia/Shanghai'
 
 DEFAULT_LANG = 'en'
-
+THEME = "../pelican-themes/pelican-bootstrap3"
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+PLUGIN_PATHS = ['../pelican-plugins']
+PLUGINS = ['i18n_subsites']
+#I18N_TEMPLATES_LANG = 'en'
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
