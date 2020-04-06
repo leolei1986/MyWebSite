@@ -25,7 +25,8 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-DELETE_OUTPUT_DIRECTORY = True
+#DELETE_OUTPUT_DIRECTORY = True
+#DELETE_RETENTION = [".git"]
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com'),
          ('Python.org', 'http://python.org'),
